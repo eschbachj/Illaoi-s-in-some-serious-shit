@@ -5,8 +5,7 @@ def illaoiSort(arr):
             mid = len(arr)//2
             sub_array1 = arr[:(mid - 1)]
             sub_array2 = arr[(mid + 1):]
- 
-            # Sort the two halves
+        
             illaoiSort(sub_array1)
             illaoiSort(sub_array2)
          
