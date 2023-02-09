@@ -3,8 +3,8 @@ def illaoiSort(arr):
         if len(arr) > 1:
  
             mid = len(arr)//2
-            sub_array1 = arr[:(mid - 1)]
-            sub_array2 = arr[(mid + 1):]
+            sub_array1 = arr[:(mid)]
+            sub_array2 = arr[(mid):]
         
             illaoiSort(sub_array1)
             illaoiSort(sub_array2)
